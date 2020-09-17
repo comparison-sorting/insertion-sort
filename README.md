@@ -1,4 +1,4 @@
-[@aureooms/js-insertion-sort](https://aureooms.github.io/js-insertion-sort)
+:rewind: [@aureooms/js-insertion-sort](https://aureooms.github.io/js-insertion-sort)
 ==
 
 Insertion sorting algorithms for JavaScript.
