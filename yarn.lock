@@ -2,7 +2,7 @@
 # yarn lockfile v1
 
 
-"@aureooms/js-array@^4.0.0":
+"@aureooms/js-array@4.0.0", "@aureooms/js-array@^4.0.0":
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/@aureooms/js-array/-/js-array-4.0.0.tgz#ea64b7c788644f40bbb92259a6098ac14a4eca6c"
   integrity sha1-6mS3x4hkT0C7uSJZpgmKwUpOymw=
@@ -29,7 +29,7 @@
   resolved "https://registry.yarnpkg.com/@aureooms/js-functools/-/js-functools-2.0.3.tgz#5139d6245278193da4cf21c44666797bf40a1d6e"
   integrity sha1-UTnWJFJ4GT2kzyHERmZ5e/QKHW4=
 
-"@aureooms/js-in-situ-sort-spec@^8.0.0":
+"@aureooms/js-in-situ-sort-spec@8.0.0":
   version "8.0.0"
   resolved "https://registry.yarnpkg.com/@aureooms/js-in-situ-sort-spec/-/js-in-situ-sort-spec-8.0.0.tgz#7e9fc5cded1746270dbf1e9bf61ae6ae3dd31c90"
   integrity sha512-boMRf8gpsMqpObk4RNqsdk3+VzhgcO5WwZiNcTnIOWCwzqWxkgpqlYiQCnML3XjyqKd3FcgRCfmlB+BtPTeWSw==
