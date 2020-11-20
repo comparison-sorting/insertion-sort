@@ -3,6 +3,10 @@
 
 Insertion sorting algorithms for JavaScript.
 See [docs](https://aureooms.github.io/js-insertion-sort/index.html).
+Parent is [@aureooms/js-sort](https://github.com/aureooms/js-sort).
+
+> :building_construction: Caveat emptor! This is work in progress. Code may be
+> working. Documentation may be present. Coherence may be. Maybe.
 
 > :warning: The code requires `regeneratorRuntime` to be defined, for instance by importing
 > [regenerator-runtime/runtime](https://www.npmjs.com/package/regenerator-runtime).
@@ -18,8 +22,6 @@ See [docs](https://aureooms.github.io/js-insertion-sort/index.html).
 [![Code issues](https://img.shields.io/codeclimate/issues/aureooms/js-insertion-sort.svg)](https://codeclimate.com/github/aureooms/js-insertion-sort/issues)
 [![Code maintainability](https://img.shields.io/codeclimate/maintainability/aureooms/js-insertion-sort.svg)](https://codeclimate.com/github/aureooms/js-insertion-sort/trends/churn)
 [![Code coverage (cov)](https://img.shields.io/codecov/c/gh/aureooms/js-insertion-sort/main.svg)](https://codecov.io/gh/aureooms/js-insertion-sort)
-<!--[![Code coverage (alls)](https://img.shields.io/coveralls/github/aureooms/js-insertion-sort/main.svg)](https://coveralls.io/r/aureooms/js-insertion-sort)-->
-<!--[![Code coverage (clim)](https://img.shields.io/codeclimate/coverage/aureooms/js-insertion-sort.svg)](https://codeclimate.com/github/aureooms/js-insertion-sort/trends/test_coverage_new_code)-->
 [![Code technical debt](https://img.shields.io/codeclimate/tech-debt/aureooms/js-insertion-sort.svg)](https://codeclimate.com/github/aureooms/js-insertion-sort/trends/technical_debt)
 [![Documentation](https://aureooms.github.io/js-insertion-sort/badge.svg)](https://aureooms.github.io/js-insertion-sort/source.html)
 [![Package size](https://img.shields.io/bundlephobia/minzip/@aureooms/js-insertion-sort)](https://bundlephobia.com/result?p=@aureooms/js-insertion-sort)
