@@ -80,8 +80,8 @@
   "devDependencies": {
     "@aureooms/js-array": "4.0.0",
     "@aureooms/js-in-situ-sort-spec": "8.0.0",
-    "@babel/cli": "7.12.7",
-    "@babel/core": "7.12.7",
+    "@babel/cli": "7.12.8",
+    "@babel/core": "7.12.9",
     "@babel/preset-env": "7.12.7",
     "@babel/register": "7.12.1",
     "ava": "3.13.0",
