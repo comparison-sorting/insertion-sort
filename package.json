@@ -137,10 +137,6 @@
   "sideEffects": false,
   "xo": {
     "prettier": true,
-    "ignore": [
-      "lib",
-      "doc"
-    ],
     "plugins": [
       "unicorn"
     ],
@@ -151,6 +147,10 @@
           "case": "camelCase"
         }
       ]
-    }
+    },
+    "ignores": [
+      "lib",
+      "doc"
+    ]
   }
 }
