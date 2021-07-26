@@ -39,28 +39,11 @@
 </nav>
 
 <div class="content" data-ice="content"><h1 data-ice="title">src/index.js</h1>
-<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">import sort from &apos;./sort.js&apos;;
-import sortTypedDecreasing from &apos;./sortTypedDecreasing.js&apos;;
-import sortTypedDecreasingOptimized from &apos;./sortTypedDecreasingOptimized.js&apos;;
-import sortTypedIncreasing from &apos;./sortTypedIncreasing.js&apos;;
-import sortTypedIncreasingOptimized from &apos;./sortTypedIncreasingOptimized.js&apos;;
-
-/* eslint import/no-anonymous-default-export: [2, {&quot;allowObject&quot;: true}] */
-export default {
-	sort,
-	sortTypedDecreasing,
-	sortTypedDecreasingOptimized,
-	sortTypedIncreasing,
-	sortTypedIncreasingOptimized,
-};
-
-export {
-	sort,
-	sortTypedDecreasing,
-	sortTypedDecreasingOptimized,
-	sortTypedIncreasing,
-	sortTypedIncreasingOptimized,
-};
+<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">export {default as sort} from &apos;./sort.js&apos;;
+export {default as sortTypedDecreasing} from &apos;./sortTypedDecreasing.js&apos;;
+export {default as sortTypedDecreasingOptimized} from &apos;./sortTypedDecreasingOptimized.js&apos;;
+export {default as sortTypedIncreasing} from &apos;./sortTypedIncreasing.js&apos;;
+export {default as sortTypedIncreasingOptimized} from &apos;./sortTypedIncreasingOptimized.js&apos;;
 </code></pre>
 
 </div>
