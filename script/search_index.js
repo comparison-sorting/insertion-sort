@@ -1,32 +1,32 @@
 window.esdocSearchIndex = [
   [
-    "@aureooms/js-insertion-sort/src/sort.js~sort",
+    "@comparison-sorting/insertion-sort/src/sort.js~sort",
     "function/index.html#static-function-sort",
-    "<span>sort</span> <span class=\"search-result-import-path\">@aureooms/js-insertion-sort/src/sort.js</span>",
+    "<span>sort</span> <span class=\"search-result-import-path\">@comparison-sorting/insertion-sort/src/sort.js</span>",
     "function"
   ],
   [
-    "@aureooms/js-insertion-sort/src/sorttypeddecreasing.js~sorttypeddecreasing",
+    "@comparison-sorting/insertion-sort/src/sorttypeddecreasing.js~sorttypeddecreasing",
     "function/index.html#static-function-sortTypedDecreasing",
-    "<span>sortTypedDecreasing</span> <span class=\"search-result-import-path\">@aureooms/js-insertion-sort/src/sortTypedDecreasing.js</span>",
+    "<span>sortTypedDecreasing</span> <span class=\"search-result-import-path\">@comparison-sorting/insertion-sort/src/sortTypedDecreasing.js</span>",
     "function"
   ],
   [
-    "@aureooms/js-insertion-sort/src/sorttypeddecreasingoptimized.js~sorttypeddecreasingoptimized",
+    "@comparison-sorting/insertion-sort/src/sorttypeddecreasingoptimized.js~sorttypeddecreasingoptimized",
     "function/index.html#static-function-sortTypedDecreasingOptimized",
-    "<span>sortTypedDecreasingOptimized</span> <span class=\"search-result-import-path\">@aureooms/js-insertion-sort/src/sortTypedDecreasingOptimized.js</span>",
+    "<span>sortTypedDecreasingOptimized</span> <span class=\"search-result-import-path\">@comparison-sorting/insertion-sort/src/sortTypedDecreasingOptimized.js</span>",
     "function"
   ],
   [
-    "@aureooms/js-insertion-sort/src/sorttypedincreasing.js~sorttypedincreasing",
+    "@comparison-sorting/insertion-sort/src/sorttypedincreasing.js~sorttypedincreasing",
     "function/index.html#static-function-sortTypedIncreasing",
-    "<span>sortTypedIncreasing</span> <span class=\"search-result-import-path\">@aureooms/js-insertion-sort/src/sortTypedIncreasing.js</span>",
+    "<span>sortTypedIncreasing</span> <span class=\"search-result-import-path\">@comparison-sorting/insertion-sort/src/sortTypedIncreasing.js</span>",
     "function"
   ],
   [
-    "@aureooms/js-insertion-sort/src/sorttypedincreasingoptimized.js~sorttypedincreasingoptimized",
+    "@comparison-sorting/insertion-sort/src/sorttypedincreasingoptimized.js~sorttypedincreasingoptimized",
     "function/index.html#static-function-sortTypedIncreasingOptimized",
-    "<span>sortTypedIncreasingOptimized</span> <span class=\"search-result-import-path\">@aureooms/js-insertion-sort/src/sortTypedIncreasingOptimized.js</span>",
+    "<span>sortTypedIncreasingOptimized</span> <span class=\"search-result-import-path\">@comparison-sorting/insertion-sort/src/sortTypedIncreasingOptimized.js</span>",
     "function"
   ],
   [
