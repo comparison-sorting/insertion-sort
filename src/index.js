@@ -1,8 +1,8 @@
-import sort from './sort';
-import sortTypedDecreasing from './sortTypedDecreasing';
-import sortTypedDecreasingOptimized from './sortTypedDecreasingOptimized';
-import sortTypedIncreasing from './sortTypedIncreasing';
-import sortTypedIncreasingOptimized from './sortTypedIncreasingOptimized';
+import sort from './sort.js';
+import sortTypedDecreasing from './sortTypedDecreasing.js';
+import sortTypedDecreasingOptimized from './sortTypedDecreasingOptimized.js';
+import sortTypedIncreasing from './sortTypedIncreasing.js';
+import sortTypedIncreasingOptimized from './sortTypedIncreasingOptimized.js';
 
 /* eslint import/no-anonymous-default-export: [2, {"allowObject": true}] */
 export default {

@@ -10,7 +10,7 @@ import {
 	sortTypedDecreasing,
 	sortTypedIncreasingOptimized,
 	sortTypedDecreasingOptimized,
-} from '../../src';
+} from '../../src/index.js';
 
 const sortTyped = (compare, a, i, j) => {
 	switch (compare) {
