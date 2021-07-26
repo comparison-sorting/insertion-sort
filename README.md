@@ -10,7 +10,7 @@ Parent is [js-sorting](https://github.com/make-github-pseudonymous-again/js-sort
 
 [![License](https://img.shields.io/github/license/comparison-sorting/insertion-sort.svg)](https://raw.githubusercontent.com/comparison-sorting/insertion-sort/main/LICENSE)
 [![Version](https://img.shields.io/npm/v/@comparison-sorting/insertion-sort.svg)](https://www.npmjs.org/package/@comparison-sorting/insertion-sort)
-[![Build](https://img.shields.io/travis/comparison-sorting/insertion-sort/main.svg)](https://travis-ci.org/comparison-sorting/insertion-sort/branches)
+[![Build](https://img.shields.io/travis/comparison-sorting/insertion-sort/main.svg)](https://travis-ci.com/comparison-sorting/insertion-sort/branches)
 [![Dependencies](https://img.shields.io/david/comparison-sorting/insertion-sort.svg)](https://david-dm.org/comparison-sorting/insertion-sort)
 [![Dev dependencies](https://img.shields.io/david/dev/comparison-sorting/insertion-sort.svg)](https://david-dm.org/comparison-sorting/insertion-sort?type=dev)
 [![GitHub issues](https://img.shields.io/github/issues/comparison-sorting/insertion-sort.svg)](https://github.com/comparison-sorting/insertion-sort/issues)
