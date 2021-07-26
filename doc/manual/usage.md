@@ -12,7 +12,7 @@ import 'regenerator-runtime/runtime.js' ;
 
 Then, import the library where needed
 ```js
-const insertionsort = require( '@aureooms/js-insertion-sort' ) ;
+const insertionsort = require( '@comparison-sorting/insertion-sort' ) ;
 // or
-import * as insertionsort from '@aureooms/js-insertion-sort' ;
+import * as insertionsort from '@comparison-sorting/insertion-sort' ;
 ```

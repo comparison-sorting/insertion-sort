@@ -1,8 +1,8 @@
 {
-  "name": "@aureooms/js-insertion-sort",
+  "name": "@comparison-sorting/insertion-sort",
   "description": "Insertion sorting algorithms for JavaScript",
   "version": "0.0.1",
-  "author": "aureooms",
+  "author": "make-github-pseudonymous-again",
   "ava": {
     "files": [
       "test/src/**/*"
@@ -74,7 +74,7 @@
     }
   },
   "bugs": {
-    "url": "https://github.com/aureooms/js-insertion-sort/issues"
+    "url": "https://github.com/comparison-sorting/insertion-sort/issues"
   },
   "dependencies": {},
   "devDependencies": {
@@ -103,7 +103,7 @@
   "files": [
     "lib"
   ],
-  "homepage": "https://aureooms.github.io/js-insertion-sort",
+  "homepage": "https://comparison-sorting.github.io/insertion-sort",
   "keywords": [
     "agpl",
     "algorithms",
@@ -121,7 +121,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/aureooms/js-insertion-sort"
+    "url": "https://github.com/comparison-sorting/insertion-sort"
   },
   "scripts": {
     "build": "babel --delete-dir-on-start --env-name production src -d lib",

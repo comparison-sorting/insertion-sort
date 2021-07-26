@@ -8,15 +8,15 @@ or [jspm](https://jspm.org/docs).
 
 ### yarn
 ```terminal
-yarn add @aureooms/js-insertion-sort
+yarn add @comparison-sorting/insertion-sort
 ```
 
 ### npm
 ```terminal
-npm install @aureooms/js-insertion-sort --save
+npm install @comparison-sorting/insertion-sort --save
 ```
 
 ### jspm
 ```terminal
-jspm install npm:@aureooms/js-insertion-sort
+jspm install npm:@comparison-sorting/insertion-sort
 ```

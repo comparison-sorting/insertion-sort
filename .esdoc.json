@@ -35,7 +35,7 @@
           "autoPrivate": true
         },
         "brand": {
-          "title": "@aureooms/js-insertion-sort"
+          "title": "@comparison-sorting/insertion-sort"
         },
         "test": {
           "type": "ava",
