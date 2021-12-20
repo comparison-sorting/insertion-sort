@@ -1,9 +1,10 @@
 // eslint-disable-next-line ava/use-test
 import ava from 'ava';
 
-import * as spec from '@aureooms/js-in-situ-sort-spec';
-import {min, copy} from '@aureooms/js-array';
-import {increasing, decreasing} from '@aureooms/js-compare';
+import * as spec from '@comparison-sorting/specification';
+import {copy} from '@array-like/copy';
+import {min} from '@array-like/reduce';
+import {increasing, decreasing} from '@total-order/primitive';
 import {
 	sort,
 	sortTypedIncreasing,
@@ -45,8 +46,14 @@ const sortTypedOptimized = (compare, a, i, j) => {
 	}
 };
 
-spec.test(ava, [
-	['sort', sort],
-	['sortTyped', sortTyped],
-	['sortTypedOptimized', sortTypedOptimized],
-]);
+spec.test(
+	ava,
+	[
+		['sort', sort],
+		['sortTyped', sortTyped],
+		['sortTypedOptimized', sortTypedOptimized],
+	],
+	{
+		compare: [increasing, decreasing],
+	},
+);
