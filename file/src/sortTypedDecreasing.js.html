@@ -39,12 +39,16 @@
 </nav>
 
 <div class="content" data-ice="content"><h1 data-ice="title">src/sortTypedDecreasing.js</h1>
-<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">const sortTypedDecreasing = (a, i, j) =&gt; {
-	for (let k = i + 1; k &lt; j; ++k) {
+<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">import sortTypedDecreasingOptimized from &apos;./sortTypedDecreasingOptimized.js&apos;;
+
+const sortTypedDecreasing = (a, i, j) =&gt; {
+	const k = i + 1;
+	if (k &lt; j) {
 		let t = k;
 		const o = a[t];
 		while (t-- &gt; i &amp;&amp; a[t] &lt; o) a[t + 1] = a[t];
 		a[t + 1] = o;
+		sortTypedDecreasingOptimized(a, k, j);
 	}
 };
 
