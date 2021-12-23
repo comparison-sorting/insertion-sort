@@ -2,12 +2,12 @@
 # yarn lockfile v1
 
 
-"@array-like/copy@^0.0.1":
+"@array-like/copy@0.0.1", "@array-like/copy@^0.0.1":
   version "0.0.1"
   resolved "https://registry.yarnpkg.com/@array-like/copy/-/copy-0.0.1.tgz#74f2c12d8565b7ae1eec44175de7378110addf07"
   integrity sha512-pdEazwiYER03ebO0rTEY1EytjHeWeCr7fm7FbLd7fhuqOTfCFIIL0tlfzQDX6YHJ1D219PsMEKyI5OO/mq7rzg==
 
-"@array-like/reduce@^0.0.1":
+"@array-like/reduce@0.0.1":
   version "0.0.1"
   resolved "https://registry.yarnpkg.com/@array-like/reduce/-/reduce-0.0.1.tgz#5fe303747165720bee149bb922536464fbcd735f"
   integrity sha512-XekQ0WFVcJVbw2Jvqf65/CxQ5g1S7L1xsGcZYE2vpT+ZW+12RlZ4NIhF0HVOosVD9FheqkEvsW5jpgeD69t4Vw==
@@ -1151,7 +1151,7 @@
   resolved "https://registry.yarnpkg.com/@comparison-sorting/is-sorted/-/is-sorted-0.0.1.tgz#db4d0e0e78f2e06a01a90a490cbc5210d07687c7"
   integrity sha512-hi9Nk2Pp8VKuN1AG1OFDiCOJT0ByPQ2s8GiO1hAXYPEPq7CNU2HRKUtYK4qrP2rHwcXmmM/v6AKjL3SES7uPSw==
 
-"@comparison-sorting/specification@^9.0.0":
+"@comparison-sorting/specification@9.0.0":
   version "9.0.0"
   resolved "https://registry.yarnpkg.com/@comparison-sorting/specification/-/specification-9.0.0.tgz#88ac742637347f2b213e858cc4fd6937169c4ea6"
   integrity sha512-Oqu//k3WxoZ/6pam532nwZixFqpI12nYr47n38DRygskJpn7lVBCDaDGQMdl0ZJc8hZP1I4ml9sQ2zw0uWaxeQ==
@@ -1443,7 +1443,7 @@
   dependencies:
     defer-to-connect "^2.0.0"
 
-"@total-order/primitive@^1.0.1":
+"@total-order/primitive@1.0.1", "@total-order/primitive@^1.0.1":
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/@total-order/primitive/-/primitive-1.0.1.tgz#7e409d303a2a3b24ed2af30bd9068027d6a4a326"
   integrity sha512-BXCXyXoQIpdwFkplPRTuxFB0I1GHHia4t22bLAEqjdk48DFwQMwSbHq1EdLA81X/eFC/b6RdVxG4Q+WEcfs0aA==
@@ -1542,7 +1542,7 @@
   dependencies:
     "@types/node" "*"
 
-"@typescript-eslint/eslint-plugin@*":
+"@typescript-eslint/eslint-plugin@^5.4.0":
   version "5.8.0"
   resolved "https://registry.yarnpkg.com/@typescript-eslint/eslint-plugin/-/eslint-plugin-5.8.0.tgz#52cd9305ceef98a5333f9492d519e6c6c7fe7d43"
   integrity sha512-spu1UW7QuBn0nJ6+psnfCc3iVoQAifjKORgBngKOmC8U/1tbe2YJMzYQqDGYB4JCss7L8+RM2kKLb1B1Aw9BNA==
@@ -1568,7 +1568,7 @@
     eslint-scope "^5.1.1"
     eslint-utils "^3.0.0"
 
-"@typescript-eslint/parser@*":
+"@typescript-eslint/parser@^5.4.0":
   version "5.8.0"
   resolved "https://registry.yarnpkg.com/@typescript-eslint/parser/-/parser-5.8.0.tgz#b39970b21c1d7bc4a6018507fb29b380328d2587"
   integrity sha512-Gleacp/ZhRtJRYs5/T8KQR3pAQjQI89Dn/k+OzyCKOsLiZH2/Vh60cFBTnFsHNI6WAD+lNUo/xGZ4NeA5u0Ipw==
@@ -1925,7 +1925,7 @@ autoprefixer@^10.1.0:
     picocolors "^1.0.0"
     postcss-value-parser "^4.1.0"
 
-ava@^3.15.0:
+ava@3.15.0:
   version "3.15.0"
   resolved "https://registry.yarnpkg.com/ava/-/ava-3.15.0.tgz#a239658ab1de8a29a243cc902e6b42e4574de2f0"
   integrity sha512-HGAnk1SHPk4Sx6plFAUkzV/XC1j9+iQhOzt4vBly18/yo0AV8Oytx7mtJd/CR8igCJ5p160N/Oo/cNJi2uSeWA==
@@ -3640,7 +3640,7 @@ eslint-config-prettier@^8.3.0:
   resolved "https://registry.yarnpkg.com/eslint-config-prettier/-/eslint-config-prettier-8.3.0.tgz#f7471b20b6fe8a9a9254cc684454202886a2dd7a"
   integrity sha512-BgZuLUSeKzvlL/VUjx/Yb787VQ26RU3gGjA3iiFvdsp/2bMfVIWUVP7tjxtjS0e+HP409cPlPvNkQloz8C91ew==
 
-eslint-config-xo-typescript@*:
+eslint-config-xo-typescript@^0.47.1:
   version "0.47.1"
   resolved "https://registry.yarnpkg.com/eslint-config-xo-typescript/-/eslint-config-xo-typescript-0.47.1.tgz#87b5865d8a3428fa26cc8dc3146ef4f712dfed46"
   integrity sha512-BkbzIltZCWp8QLekKJKG8zJ/ZGezD8Z9FaJ+hJ5PrAVUGkIPmxXLLEHCKS3ax7oOqZLYQiG+jyKfQDIEdTQgbg==
