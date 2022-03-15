@@ -68,9 +68,9 @@
   "devDependencies": {
     "@array-like/copy": "0.0.1",
     "@array-like/reduce": "0.0.1",
-    "@babel/core": "7.17.5",
+    "@babel/core": "7.17.7",
     "@babel/preset-env": "7.16.11",
-    "@babel/register": "7.17.0",
+    "@babel/register": "7.17.7",
     "@commitlint/cli": "16.2.1",
     "@comparison-sorting/specification": "9.0.0",
     "@js-library/commitlint-config": "0.0.4",
