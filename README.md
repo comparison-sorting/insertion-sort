@@ -10,7 +10,7 @@ Parent is [js-sorting](https://github.com/make-github-pseudonymous-again/js-sort
 
 [![License](https://img.shields.io/github/license/comparison-sorting/insertion-sort.svg)](https://raw.githubusercontent.com/comparison-sorting/insertion-sort/main/LICENSE)
 [![Version](https://img.shields.io/npm/v/@comparison-sorting/insertion-sort.svg)](https://www.npmjs.org/package/@comparison-sorting/insertion-sort)
-[![Tests](https://img.shields.io/github/workflow/status/comparison-sorting/insertion-sort/ci?event=push&label=tests)](https://github.com/comparison-sorting/insertion-sort/actions/workflows/ci.yml?query=branch:main)
+[![Tests](https://img.shields.io/github/actions/workflow/status/comparison-sorting/insertion-sort/ci.yml?branch=main&event=push&label=tests)](https://github.com/comparison-sorting/insertion-sort/actions/workflows/ci.yml?query=branch:main)
 [![Dependencies](https://img.shields.io/librariesio/github/comparison-sorting/insertion-sort.svg)](https://github.com/comparison-sorting/insertion-sort/network/dependencies)
 [![GitHub issues](https://img.shields.io/github/issues/comparison-sorting/insertion-sort.svg)](https://github.com/comparison-sorting/insertion-sort/issues)
 [![Downloads](https://img.shields.io/npm/dm/@comparison-sorting/insertion-sort.svg)](https://www.npmjs.org/package/@comparison-sorting/insertion-sort)
