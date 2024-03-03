@@ -1,10 +1,11 @@
 // eslint-disable-next-line ava/use-test
 import ava from 'ava';
 
-import * as spec from '@comparison-sorting/specification';
 import {copy} from '@array-like/copy';
 import {min} from '@array-like/reduce';
+import * as spec from '@comparison-sorting/specification';
 import {increasing, decreasing} from '@total-order/primitive';
+
 import {
 	sort,
 	sortTypedIncreasing,
@@ -15,14 +16,19 @@ import {
 
 const sortTyped = (compare, a, i, j) => {
 	switch (compare) {
-		case increasing:
+		case increasing: {
 			return sortTypedIncreasing(a, i, j);
-		case decreasing:
+		}
+
+		case decreasing: {
 			return sortTypedDecreasing(a, i, j);
-		default:
+		}
+
+		default: {
 			throw new Error(
 				'First argument `compare` should be one of {increasing, decreasing}.',
 			);
+		}
 	}
 };
 
@@ -33,16 +39,21 @@ const sortTypedOptimized = (compare, a, i, j) => {
 	copy(a, i, j, b, 1);
 	b[0] = min(compare, a, i, j);
 	switch (compare) {
-		case increasing:
+		case increasing: {
 			sortTypedIncreasingOptimized(b, 1, N + 1);
 			return copy(b, 1, N + 1, a, i);
-		case decreasing:
+		}
+
+		case decreasing: {
 			sortTypedDecreasingOptimized(b, 1, N + 1);
 			return copy(b, 1, N + 1, a, i);
-		default:
+		}
+
+		default: {
 			throw new Error(
 				'First argument `compare` should be one of {increasing, decreasing}.',
 			);
+		}
 	}
 };
 
